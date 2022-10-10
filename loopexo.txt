@@ -1,13 +1,24 @@
+Exo2 --
 const vacationSpots = ['Mozambique', 'Thailand', 'Bolivia'];
 
 console.log(vacationSpots[0]);
 console.log(vacationSpots[1]);
 console.log(vacationSpots[2]);
 ---
+Exo 3
 for (let counter = 5; counter < 11; counter++) {
   console.log(counter);
 }
 ---
+Exo 4
 for (let counter = 3; counter >= 0; counter--){
   console.log(counter);
+}
+---
+ex 5 loops
+const vacationSpots = ['Bali', 'Paris', 'Tulum'];
+
+// Write your code below
+for (let i = 0; i < vacationSpots.length; i++ ){
+  console.log('I would love to visit ' + vacationSpots[i]);
 }
