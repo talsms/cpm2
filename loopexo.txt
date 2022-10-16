@@ -23,7 +23,7 @@ for (let i = 0; i < vacationSpots.length; i++ ){
   console.log('I would love to visit ' + vacationSpots[i]);
 }
 ---
-// Write your code below
+Exo 6
 let bobsFollowers = ['Joe', 'Marta', 'Sam', 'Erin'];
 let tinasFollowers = ['Sam', 'Marta', 'Elle'];
 let mutualFollowers = [];
@@ -36,12 +36,21 @@ for (let i = 0; i < bobsFollowers.length; i++) {
   }
 };
 ---
+Exo 7
 const cards = ['diamond', 'spade', 'heart', 'club'];
 
-// Write your code below
 let currentCard;
 
 while ( currentCard != 'spade') {
   currentCard = cards[Math.floor(Math.random() * 4)];
   console.log(currentCard);
 }
+---
+Exo8
+let cupsOfSugarNeeded = 3;
+let cupsAdded = 0;
+
+do {
+ cupsAdded++
+ console.log(cupsAdded + ' cup was added') 
+} while (cupsAdded < cupsOfSugarNeeded);
